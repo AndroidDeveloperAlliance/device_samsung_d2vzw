@@ -3,6 +3,9 @@ $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 # Inherit some common ADA stuff.
 $(call inherit-product, vendor/ada/config/cdma.mk)
 
+# Boot animation
+TARGET_BOOTANIMATION_NAME := vertical-720x1280
+
 # Enhanced NFC
 $(call inherit-product, vendor/ada/config/nfc_enhanced.mk)
 
